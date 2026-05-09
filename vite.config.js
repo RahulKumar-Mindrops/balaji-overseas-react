@@ -8,6 +8,7 @@ export default defineConfig({
       '/api': {
         target: 'http://localhost:3001',
         changeOrigin: true,
+<<<<<<< HEAD
         configure(proxy) {
           proxy.on('error', () => {
             console.warn(
@@ -16,6 +17,8 @@ export default defineConfig({
             )
           })
         },
+=======
+>>>>>>> 84a36cc3da30eb976825f78b23abc93515549191
       },
     },
   },
